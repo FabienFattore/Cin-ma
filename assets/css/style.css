@@ -134,7 +134,7 @@ footer{
     color: whitesmoke;
 }
 
-/*10 jours sas maman*/
+/*10 jours sans maman*/
 
 .movie3 {
     position: relative;
@@ -366,6 +366,19 @@ footer{
 
     .rank-1 {
         justify-content: center;
+    }
+
+    .title-smb-des,.title-suz-des,.title-10j-des,.title-djd-des,.title-sh2-des,.title-edr-des,.title-jw4-des,.title-lrn-des {
+        font-weight: bold;
+        color: white;
+        background-color: transparent;
+        opacity: 1;
+    }
+    
+    .title-smb-des h2,p,.title-suz-des h2,.title-10j-des h2,.title-djd-des h2 {
+        background-color: rgb(49, 46, 46);
+        padding: 5px;
+        border-radius: 4px;
     }
 
     footer{
