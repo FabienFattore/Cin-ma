@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <link rel="stylesheet" href="assets/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mon Ciné</title>
 </head>
 
 <body>
     <main>
         <header>
+            <link rel="stylesheet" href="style.css">
             <h2><span>Mon cinéma,</span> situé chez moi dans mon salon</h2>
             <div class="logo-cine"><img src="assets/img/logo.png" alt="logo-cinema"></div>
         </header>
@@ -20,19 +21,21 @@
             <a href="affiche.html">A L'AFFICHE</a>
             <a href="reservation.html">HORAIRES</a>
             <a href="affiche.html">PROCHAINEMENT</a>
-            <a href="infos-pratiques">INFOS PRATIQUES</a>
+            <a href="infospratiques.html">INFOS PRATIQUES</a>
         </nav>
-        <div class="prices">
-            <h2>LES TARIFS</h2>
-            <ul>
-                <li>Plein tarif : 8,50€</li>
-                <li>Tarif Séniors : 6,70€ (Pour les plus de 60 ans sur présentation d'un justificatif)</li>
-                <li>Tarif étudiant : 6,70€ (Sur présentation d'un justificatif en cours de validité)</li>
-                <li>Tarif PMR : 6,70€ (Sur présentation d'un justificatif en cours de validité)</li>
-                <li>Tarif 14 - 25 ans : 5,70€ (Sur présentation d'un justificatif)</li>
-                <li>Moins de 14 ans (à partir de 3 ans) : 4,70 € (Sur présentation d'un justificatif)</li>
-                <li>Tarif matin : 5,50€ (séances de 11H)</li>
-            </ul>
+        <div class="formulaire">
+            <form action="">
+                <label for="nom">Nom :</label><br>
+                <input type="text" id="nom" required><br>
+                <label for="prenom">Prénom :</label><br>
+                <input type="text" id="prenom" required><br>
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" required placeholder="exemple@email.fr"><br>
+                <label for="demande">Demande :</label><br>
+                <input type="text" id="demande"required><br>
+                <label for="bouton"></label>
+                <input type="submit" id="bouton">
+            </form>
         </div>
         <footer>
             <a href="mon ciné">Mon ciné</a>
@@ -42,5 +45,3 @@
         </footer>
     </main>
 </body>
-
-</html>

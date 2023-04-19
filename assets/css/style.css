@@ -3,9 +3,8 @@ body {
 }
 
 main {
-    margin: auto;
     width: 100%;
-    margin-top: 1%;
+    height: 1vm;
 }
 
 header {
@@ -366,6 +365,42 @@ footer {
     padding-bottom: 2%;
 }
 
+/*formulaire*/
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 2% 0 2% 0;
+}
+
+form {
+    width: 50%;
+    padding: 2%;
+    color: whitesmoke;
+    background-color: rgb(49, 46, 46);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+#demande {
+    height: 80px;
+}
+
+label {
+    padding: 2% 0 2% 0;
+}
+
+#bouton {
+    background-color: rgb(235, 145, 27);
+    color: rgba(49, 46, 46);
+    border-color: rgb(235, 145, 27);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 1200px) {
 
     main {
@@ -449,6 +484,11 @@ footer {
     footer a {
         font-size: 1.5em;
         padding: 10px 0 10px 0;
+    }
+
+    form {
+        width: 100%;
+        margin: 3% 0 3% 0;
     }
 
 
