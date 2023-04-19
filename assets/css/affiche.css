@@ -1,5 +1,7 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    margin: 0;
 }
 
 main {
@@ -52,6 +54,7 @@ span {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin:0 0.5% 0 0.5%;
 }
 
 .rank-1 img {
@@ -67,6 +70,7 @@ span {
 .title-rank h2 {
     font-style: italic;
     color: rgb(49, 46, 46);
+    margin-left: 0.5%;
 }
 
 footer {
