@@ -4,8 +4,8 @@ body {
 
 main {
     margin: auto;
-    width: 80%;
-    margin-top: 3%;
+    width: 100%;
+    margin-top: 1%;
 }
 
 header {
@@ -16,7 +16,7 @@ header {
     background-color: rgb(49, 46, 46);
     color: whitesmoke;
     font-size: 0.7em;
-    padding: 0 1% 3% 0; 
+    padding: 0 1% 3% 0;
 }
 
 .logo-cine img {
@@ -49,7 +49,7 @@ span {
 }
 
 .rank-1 {
-    padding:0 0 2% 0;
+    padding: 0 0 2% 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -65,12 +65,13 @@ span {
     flex-direction: row;
     justify-items: start;
 }
+
 .title-rank h2 {
     font-style: italic;
     color: rgb(49, 46, 46);
 }
 
-footer{
+footer {
     border-top: 15px solid rgb(235, 145, 27);
     font-size: 0.8em;
     font-style: italic;
@@ -90,11 +91,11 @@ footer{
 .title-smb-des {
     font-size: 0.9em;
     color: whitesmoke;
-    background-color: rgb(49, 46, 46);
+    background-color: rgb(49, 46, 46, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
     position: absolute;
     width: 320px;
     height: 427px;
@@ -116,16 +117,14 @@ footer{
     position: relative;
 }
 
-
-
 .title-suz-des {
     font-size: 0.9em;
     color: whitesmoke;
-    background-color: rgb(49, 46, 46);
+    background-color: rgb(49, 46, 46, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
     position: absolute;
     width: 320px;
     height: 427px;
@@ -150,11 +149,11 @@ footer{
 .title-10j-des {
     font-size: 0.9em;
     color: whitesmoke;
-    background-color: rgb(49, 46, 46);
+    background-color: rgb(49, 46, 46, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
     position: absolute;
     width: 320px;
     height: 427px;
@@ -179,11 +178,11 @@ footer{
 .title-djd-des {
     font-size: 0.9em;
     color: whitesmoke;
-    background-color: rgb(49, 46, 46);
+    background-color: rgb(49, 46, 46, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
     position: absolute;
     width: 320px;
     height: 427px;
@@ -208,11 +207,11 @@ footer{
 .title-sh2-des {
     font-size: 0.9em;
     color: whitesmoke;
-    background-color: rgb(49, 46, 46);
+    background-color: rgb(49, 46, 46, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
     position: absolute;
     width: 320px;
     height: 427px;
@@ -237,11 +236,11 @@ footer{
 .title-edr-des {
     font-size: 0.9em;
     color: whitesmoke;
-    background-color: rgb(49, 46, 46);
+    background-color: rgb(49, 46, 46, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
     position: absolute;
     width: 320px;
     height: 427px;
@@ -266,11 +265,11 @@ footer{
 .title-jw4-des {
     font-size: 0.9em;
     color: whitesmoke;
-    background-color: rgb(49, 46, 46);
+    background-color: rgb(49, 46, 46, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
     position: absolute;
     width: 320px;
     height: 427px;
@@ -295,11 +294,11 @@ footer{
 .title-lrn-des {
     font-size: 0.9em;
     color: whitesmoke;
-    background-color: rgb(49, 46, 46);
+    background-color: rgba(49, 46, 46, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
     position: absolute;
     width: 320px;
     height: 427px;
@@ -339,6 +338,17 @@ footer{
     border-radius: 3px;
 }
 
+.title-smb-des,
+.title-10j-des,
+.title-djd-des,
+.title-edr-des,
+.title-jw4-des,
+.title-suz-des,
+.title-sh2-des,
+.title-lrn-des p {
+    text-align: center;
+}
+
 .prices {
     font-size: 1.2em;
     display: flex;
@@ -367,7 +377,7 @@ footer{
         justify-content: center;
         padding: 5px 5px 5px 5px
     }
-    
+
     nav {
         flex-direction: column;
         flex-wrap: wrap;
@@ -400,20 +410,36 @@ footer{
         justify-content: center;
     }
 
-    .title-smb-des,.title-suz-des,.title-10j-des,.title-djd-des,.title-sh2-des,.title-edr-des,.title-jw4-des,.title-lrn-des {
+    .title-smb-des,
+    .title-suz-des,
+    .title-10j-des,
+    .title-djd-des,
+    .title-sh2-des,
+    .title-edr-des,
+    .title-jw4-des,
+    .title-lrn-des {
         font-weight: bold;
         color: white;
         background-color: transparent;
         opacity: 1;
     }
 
-    .title-smb-des h2,p,.title-suz-des h2,.title-10j-des h2,.title-djd-des h2,.title-sh2-des h2,.title-edr-des h2,.title-jw4-des h2,.title-lrn-des h2 {
+    .title-smb-des h2,
+    p,
+    .title-suz-des h2,
+    .title-10j-des h2,
+    .title-djd-des h2,
+    .title-sh2-des h2,
+    .title-edr-des h2,
+    .title-jw4-des h2,
+    .title-lrn-des h2 {
         background-color: rgb(49, 46, 46);
         padding: 5px;
         border-radius: 4px;
+        text-align: center;
     }
 
-    footer{
+    footer {
         flex-direction: column;
         text-align: center;
         font-size: 0.8em;
@@ -425,5 +451,5 @@ footer{
         padding: 10px 0 10px 0;
     }
 
-   
-    }
+
+}
